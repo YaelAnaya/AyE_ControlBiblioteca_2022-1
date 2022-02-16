@@ -10,21 +10,11 @@ public class Control {
         articulos.add(articulo);
     }
     public Articulo baja(int id){
-        for (Articulo a: articulos) {
-            if (a.getId() == id){
-                int index = articulos.indexOf(a);
-                return articulos.remove(index);
-            }
-        }
-        return null;
+        return articulos.remove(buscarIndexPorId(id));
     }
 
     public int buscarIndexPorId(int id){
-        for (Articulo a : articulos){
-            if (a.getId() == id)
-                return articulos.indexOf(a);
-        }
-        return -1;
+        return articulos.indexOf(buscarPorId(id));
     }
 
     public Articulo buscarPorId(int id){
@@ -57,9 +47,7 @@ public class Control {
     }
 
     public String mostrarArticulo(int id){
-        for (Articulo a : articulos)
-            return a.toString();
-        return "";
+        return buscarPorId(id).toString();
     }
 
     public String mostrarArrayList(ArrayList<Articulo> arrayList){
