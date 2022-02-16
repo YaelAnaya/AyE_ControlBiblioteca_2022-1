@@ -37,16 +37,16 @@ public class Multimedia extends Articulo{
 
     @Override
     public String toString() {
-        return "Multimedia{" +
-                "id=" + id +
-                ", autor='" + autor + '\'' +
-                ", añoDePublicacion=" + añoDePublicacion +
-                ", titulo='" + titulo + '\'' +
-                ", clasificacion='" + clasificacion + '\'' +
-                ", idioma='" + idioma + '\'' +
-                ", genero='" + genero + '\'' +
-                ", tipoDeMultimedia='" + tipoDeMultimedia + '\'' +
-                ", duración=" + duración +
-                '}';
+        return "-> Multimedia {" +
+                " id = " + id +
+                ", autor = '" + autor + '\'' +
+                ", añoDePublicacion = " + añoDePublicacion +
+                ", titulo = '" + titulo + '\'' +
+                ", clasificacion = '" + clasificacion + '\'' +
+                ", idioma = '" + idioma + '\'' +
+                ", genero = '" + genero + '\'' +
+                ", tipoDeMultimedia = '" + tipoDeMultimedia + '\'' +
+                ", duración = " + duración +
+                " }";
     }
 }

@@ -57,18 +57,18 @@ public class Texto extends Articulo{
 
     @Override
     public String toString() {
-        return "Texto{" +
-                "id=" + id +
-                ", autor='" + autor + '\'' +
-                ", añoDePublicacion=" + añoDePublicacion +
-                ", titulo='" + titulo + '\'' +
-                ", clasificacion='" + clasificacion + '\'' +
-                ", idioma='" + idioma + '\'' +
-                ", editorial='" + editorial + '\'' +
-                ", numeroDePaginas=" + numeroDePaginas +
-                ", tipoDeTexto='" + tipoDeTexto + '\'' +
-                ", genero='" + genero + '\'' +
-                ", tamañoDeHoja='" + tamañoDeHoja + '\'' +
-                '}';
+        return "-> Texto {" +
+                "id = " + id +
+                ", autor = '" + autor + '\'' +
+                ", añoDePublicacion = " + añoDePublicacion +
+                ", titulo = '" + titulo + '\'' +
+                ", clasificacion = '" + clasificacion + '\'' +
+                ", idioma = '" + idioma + '\'' +
+                ", editorial = '" + editorial + '\'' +
+                ", numeroDePaginas = " + numeroDePaginas +
+                ", tipoDeTexto = '" + tipoDeTexto + '\'' +
+                ", genero = '" + genero + '\'' +
+                ", tamañoDeHoja = '" + tamañoDeHoja + '\'' +
+                " }";
     }
 }

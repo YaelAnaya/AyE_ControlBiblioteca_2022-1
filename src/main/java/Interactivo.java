@@ -58,18 +58,18 @@ public class Interactivo extends Articulo{
 
     @Override
     public String toString() {
-        return "Interactivo{" +
-                "id=" + id +
-                ", autor='" + autor + '\'' +
-                ", añoDePublicacion=" + añoDePublicacion +
-                ", titulo='" + titulo + '\'' +
-                ", clasificacion='" + clasificacion + '\'' +
-                ", idioma='" + idioma + '\'' +
-                ", edadRecomendada=" + edadRecomendada +
-                ", plataforma='" + plataforma + '\'' +
-                ", tiposDeInteractivo='" + tiposDeInteractivo + '\'' +
-                ", genero='" + genero + '\'' +
-                ", espacioEnDisco=" + espacioEnDisco +
-                '}';
+        return "-> Interactivo { " +
+                "id = " + id +
+                ", autor = '" + autor + '\'' +
+                ", añoDePublicacion = " + añoDePublicacion +
+                ", titulo = '" + titulo + '\'' +
+                ", clasificacion = '" + clasificacion + '\'' +
+                ", idioma = '" + idioma + '\'' +
+                ", edadRecomendada = " + edadRecomendada +
+                ", plataforma = '" + plataforma + '\'' +
+                ", tiposDeInteractivo = '" + tiposDeInteractivo + '\'' +
+                ", genero = '" + genero + '\'' +
+                ", espacioEnDisco = " + espacioEnDisco +
+                " }";
     }
 }
